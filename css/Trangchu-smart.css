@@ -1,0 +1,183 @@
+@media (max-width: 767px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .Header-1{
+        display: none;
+    }
+    .Header-2{
+        display: block;
+    }
+    .Teelab-product-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Teelab-home-header{
+        width: 100%;
+        /* background-color: aqua; */
+        height: 50px;
+    }
+    .Teelab-home-above{
+        width: 90%;
+        height: 50px;
+        /* background-color: azure; */
+        margin: auto;
+        display: flex; 
+        align-items: center;
+    }
+    .Teelab-home-above-img {
+        width: 48%;
+    }
+    .Togglebutton{
+        background-color: #fff;
+        border: 1px solid #fff;
+        
+    }
+    .Icon-img-menu {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .Teelab-home-above{
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    .Toggle{
+        background-color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+        
+    }
+    .Toggle i{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .search-bar{
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: auto;
+        text-align: center;
+        padding: 0 2px;
+        margin-top: 10px;
+        display: none;
+    }
+    .search-bar input{
+        width: 82%;
+        border: 1px solid grey;
+        height: 45px;
+    }
+    .search-bar button{
+        width: 5%;
+        height: 45px;
+        margin-left: -10px;
+        background-color: #545457;
+        border: 1px solid grey;
+    }
+    .Back-r-den{
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0 !important;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 9999;
+    }
+    .Menu{
+        width: 300px;
+        height: 100%;
+        background-color: #ffffff;
+        position: fixed;
+        z-index: 99999;
+        padding: 20px;
+        
+    } 
+    .Menu h2 {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .Menu ul {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .Menu li {
+        margin-top: 3px;
+    }
+    .Menu li a:hover{
+        color: grey;
+    }
+    .Menu li a {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+    .close-button{
+        float: right;
+    }
+    .Teelab-banner{
+        display: none;
+    }
+    .Teelab-content{
+        margin-top: 25px;
+    }
+    .Product-item{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+    .Product-item-summary {
+        text-align: center;
+    }
+    .Product-item-summary p{
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 100px; /* Độ rộng tối đa của đoạn chữ */
+      padding: 0 34%;
+    }
+    .Product-item-summary h6{
+        font-size: 20px;
+    }
+    .Product-item-summary i{
+        font-size: 9.90px;
+    }
+    .Product-item-summary-sale{
+        justify-content: center;
+    }
+    .Teelab-category {
+        padding: 14px;
+    }
+    .Teelab-category li{
+        height: 50px;
+    }
+    .Teelab-category img{
+        width: 30px;
+        height: 30px;
+    }
+    .Product-item-summary h3{
+        font-size: 40px;
+    }
+    .Teelab-category h3{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100px; /* Độ rộng tối đa của đoạn chữ */
+    }
+    .Teelab-footer{
+        display: none;
+    }
+    .Xem-thêm button {
+        height: 38px;
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .Xem-thêm{
+        width: 100%;
+    }
+}

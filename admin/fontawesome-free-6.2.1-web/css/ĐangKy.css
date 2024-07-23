@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Teelab-home-header{
+    width: 100%;
+    height: auto;
+    background: hsla(0,0%,100%,.8);
+    box-shadow: 0 4px 8px rgba(16,16,16,.05);
+    backdrop-filter: saturate(180%) blur(40px);
+    -webkit-backdrop-filter: saturate(180%) blur(40px);    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.Teelab-home-above{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(115, 57, 57); */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid rgb(211, 208, 208) ;
+}
+.Teelab-subpages-1{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(107, 198, 198); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.Teelab-subpages-1 img{
+    width: 45%;
+    height: 35px;
+}
+.Teelab-subpages-1 a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #484848;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.Teelab-subpages-1 a:hover{
+    color: linear-gradient(135deg,#ed55c7,#6756ca);
+    background: linear-gradient(135deg,#ed55c7,#6756ca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Teelab-subpages-2{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(27, 60, 137); */
+    display: flex;
+    align-items: center;
+}
+.Teelab-subpages-2 input{
+    width: 95%;
+    height: 60%;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(16,16,16,.05);
+    border: 1px solid rgba(16,16,16,.05);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 17px;
+}
+.Teelab-subpages-2 i{
+    position: absolute;
+    margin-left: 30px;
+}
+.Teelab-subpages-3{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(115, 160, 25); */
+    display: flex;
+    align-items: center;
+}
+.Teelab-subpages-3 ul {
+    display: flex;
+}
+.Teelab-subpages-3 li{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(16,16,16,.05098);
+    list-style: none;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Teelab-subpages-3 button {
+    width: 100%;
+    height: 50%;
+    border: 1px solid rgba(16,16,16,.05);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 17px;
+}
+.Teelab-subpages-3 button:hover{
+    background-color: #484848;
+    color: #fff;
+}
+.Teelab-home-below{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(212, 91, 91); */
+}
+.Teelab-content{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+.Teelab-content img {
+    width: 100%;
+    height: 600px;
+    
+}
+.Teelab-content h2 {
+    width: 351px;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 90px;
+    color: #101010;
+    font-family: sans-serif;
+    margin-left: 80px;
+}
+.Text-1{
+    /* background-color:#484848; */
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.Text-2{
+    width: 1000px;
+    height: 400px;
+    /* background-color: #461111; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.Teelab-sign{
+    background: #f9f9f9;
+    width: 400px;
+    height: 240px;
+    border: 1px solid rgba(16,16,16,.1);
+    box-shadow: 0 0 4px rgba(16,16,16,.1);
+    border-radius: 8px;
+    z-index: 1;
+    padding: 10px;
+}
+.Teelab-sign input{
+    height: 54px;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-color: #e6e6e6;
+    border-radius: 8px;
+    padding: 12px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #e6e6e6;
+}
+.Teelab-qmk{
+    width: 100%;
+    height: auto;
+    /* background-color: #6756ca; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.Teelab-qmk a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #101010;
+}
+.Teelab-qmk p{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: linear-gradient(135deg,#ed55c7,#6756ca);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.Teelab-sign button{
+    height: 36px;
+    padding: 7px 20px 8px;
+    background: linear-gradient(135deg,#fce6f7,#d5d0f0);
+    border-radius: 999px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.Teelab-Dk{
+    width: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.Teelab-Dk a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    background: linear-gradient(135deg,#ed55c7,#6756ca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.Teelab-Đk{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+    font-family: sans-serif;
+}
+.Teelab-Đk a{
+    text-decoration: none;
+    color: #101010;
+}
+.Teelab-footer{
+    padding: 0 40px;
+    background-color: #101010;
+}
+.Teelab-footer-list{
+    width: 94%;
+    height: auto;
+    /* background-color: #484848; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Teelab-footer-list-1{
+    width: 25%;
+    height: 100%;
+    /* background-color: #ac5b5b; */
+    padding: 20px 0px;
+}
+.Teelab-footer-list-1 p{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+.Teelab-footer-list-1 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    font-style: 500;
+}
+.Teelab-footer-list-1 h2{
+    color: #b3b3b3;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.Img-item img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.Teelab-footer-list-2{
+    width: 25%;
+    height: 100%;
+    /* background-color: #ac5b5b; */
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.Teelab-footer-list-2 p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #b3b3b3;
+    margin-top: 5   px;
+}
+.Teelab-footer-list-2 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    font-style: 500;
+    margin-top: 5px;
+}
+hr{
+    margin-top: 20px
+}
+
